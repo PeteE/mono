@@ -78,6 +78,7 @@ esac
 
 host_win32=no
 target_win32=no
+disable_munmap=yes
 case "$host" in
 	*-mingw*|*-*-cygwin*)
 		AC_DEFINE(HOST_WIN32,1,[Host Platform is Win32])
