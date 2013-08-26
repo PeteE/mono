@@ -1,3 +1,7 @@
+2013-26-08 Pete Erickson  <petee@mindtouch.com>
+	Connection.cs: Catch ObjectDisposed exception which can happen if thread is aborted while reader 
+	is still reading.
+
 2009-05-07 Gonzalo Paniagua Javier <gonzalo@novell.com>
 
 	* Connection.cs: if the socket is already disconnected, Shutdown will
